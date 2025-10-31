@@ -8,8 +8,25 @@ img {
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 50px;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 15%;
+  align-items: center;
 }
 
 /* do not edit this footer */
